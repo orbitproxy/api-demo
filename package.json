@@ -1,0 +1,9 @@
+{
+  "name": "orbitproxy-api-demo",
+  "version": "1.0.0",
+  "description": "Sample API service that returns information about the connection on all paths.",
+  "scripts": {
+    "start": "bun app.js"
+  },
+  "license": "Apache-2.0"
+}
