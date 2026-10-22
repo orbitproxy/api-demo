@@ -3,7 +3,7 @@
 这是一个用 Bun 写的 API 服务。任意路径都会返回这次连接的信息，用来演示 [orbitproxy](https://orbitproxy.cc) 的 API 网关：在内网或 localhost 启动它，再通过 orbitproxy 分享到公网。
 
 - 官网：[orbitproxy.cc](https://orbitproxy.cc)
-- 文档：[把 localhost API 分享到公网](https://docs.orbitproxy.cc/docs/cases/api/localhost-api)
+- 文档：[把 localhost API 分享到公网](https://docs.orbitproxy.cc/docs/gateway/use-cases/traffic-entry)
 
 返回示例：
 
@@ -49,5 +49,5 @@ docker buildx build \
 
 - [orbitproxy 官网](https://orbitproxy.cc)
 - [orbitproxy 文档](https://docs.orbitproxy.cc/docs)
-- [API 网关](https://docs.orbitproxy.cc/docs/gateway/api)
+- [API 网关](https://docs.orbitproxy.cc/docs/gateway/overview)
 - [orbitproxy Go SDK](https://github.com/orbitproxy/orbitproxy-go)
